@@ -3,7 +3,7 @@
 ###### output_log.txt quick reference
 - line num: 1637: `<== PlayerInventory.GetFormats(7)`
   - all formats, banned cards for each format and all sets in each format
-```
+  - ```
 [
   {
     "name": "Cascade",
