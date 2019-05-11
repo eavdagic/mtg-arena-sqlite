@@ -49,7 +49,7 @@ Locations (line numbers) and examples of JSON objects in logs
           "sideboard": []
       ]
       ```
-- line num: 2401: `<== Event.GetCombinedRankInfo(10)`
+- **line num: 2401: `<== Event.GetCombinedRankInfo(10)`**
   - user rankings info
       ```
       {
@@ -74,3 +74,7 @@ Locations (line numbers) and examples of JSON objects in logs
         "limitedLeaderboardPlace": 0
       }
       ```
+- **line num: 2427: `<== PlayerInventory.GetRewardSchedule(11)`**
+  - Rewards schedule
+- **line num: 2740: `<== PlayerInventory.GetPlayerCardsV3(12)`**
+  - user owned cards and count
