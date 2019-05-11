@@ -1,33 +1,33 @@
 ### Will create a SQLite DB from MTG Arena logs
 
-###### output_log.txt quick reference
+#### output_log.txt quick reference
 - line num: 1637: `<== PlayerInventory.GetFormats(7)`
   - all formats, banned cards for each format and all sets in each format
-  ```
-  [
-    {
-      "name": "Cascade",
-      "sets": [
-        "ANA",
-        "DAR",
-        "M19",
-        "RIX",
-        "W17",
-        "XLN",
-        "GRN",
-        "G18",
-        "RNA",
-        "WAR"
-      ],
-      "bannedCards": [
-        "Lavinia, Azorius Renegade",
-        "Teferi, Time Raveler",
-        "Nexus of Fate"
-      ],
-      "cardCountRestriction": "None"
-    }
-  ]
-  ```
+    ```
+    [
+      {
+        "name": "Cascade",
+        "sets": [
+          "ANA",
+          "DAR",
+          "M19",
+          "RIX",
+          "W17",
+          "XLN",
+          "GRN",
+          "G18",
+          "RNA",
+          "WAR"
+        ],
+        "bannedCards": [
+          "Lavinia, Azorius Renegade",
+          "Teferi, Time Raveler",
+          "Nexus of Fate"
+        ],
+        "cardCountRestriction": "None"
+      }
+    ]
+    ```
 - line num: 2020: `<== Deck.GetDeckListsV3(8)`
   - all user decks
 ```
